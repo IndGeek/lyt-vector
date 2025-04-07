@@ -1,5 +1,5 @@
 import { VectorStore } from '../store';
-import { generateEmbedding } from '@/lib/embedding';
+import { generateEmbedding } from '../lib/embedding';
 
 const store = new VectorStore();
 
