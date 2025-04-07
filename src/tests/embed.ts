@@ -1,8 +1,5 @@
-import fs from 'fs';
-import path from 'path';
-import { GoogleGenerativeAI } from "@google/generative-ai";
 import { VectorStore } from '../store';
-import { generateEmbedding } from '../lib/embedding';
+import { generateEmbedding } from '@/lib/embedding';
 
 const store = new VectorStore();
 

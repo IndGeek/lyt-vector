@@ -1,4 +1,4 @@
-import { generateEmbedding } from "../lib/embedding";
+import { generateEmbedding } from "@/lib/embedding";
 import { VectorStore } from "../store";
 
 const store = new VectorStore();
