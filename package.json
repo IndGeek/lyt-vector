@@ -1,15 +1,29 @@
 {
   "name": "lytvector",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
+  "main": "dist/store.js",
   "scripts": {
     "dev": "nodemon src/index.ts",
     "start": "ts-node src/index.ts"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "vector-db",
+    "lyt-vector",
+    "lytvector",
+    "js vector",
+    "vector js",
+    "vector",
+    "js vectordb"
+  ],
+  "author": "Soumya Mondal",
   "license": "ISC",
   "description": "",
+  "files": [
+    "dist/**/*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@google/generative-ai": "^0.24.0",
     "dotenv": "^16.4.7",
@@ -24,5 +38,10 @@
     "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IndGeek/lyt-vector.git"
+  },
+  "homepage": "https://github.com/IndGeek/lyt-vector#readme"
 }
