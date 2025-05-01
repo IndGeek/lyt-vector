@@ -1,10 +1,11 @@
 {
   "name": "lytvector",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/store.js",
   "scripts": {
     "dev": "nodemon src/index.ts",
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "build": "rm -rf dist && tsc"
   },
   "keywords": [
     "vector-db",
@@ -17,7 +18,7 @@
   ],
   "author": "Soumya Mondal",
   "license": "ISC",
-  "description": "",
+  "description": "A simple vector database for storing and searching vectors.",
   "files": [
     "dist/**/*"
   ],
@@ -26,6 +27,7 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^5.1.0",
     "keyhasher": "^1.5.1",
@@ -33,6 +35,7 @@
     "uuid": "^11.1.0"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^5.0.1",
     "@types/node": "^22.14.0",
     "nodemon": "^3.1.9",
