@@ -56,7 +56,7 @@ docker-compose up --build
       ```json
       { 
         "id": "vector-id", 
-        "vector": [number, ...] 
+        "vector": [0.234, 0.678, ] 
       }
       ```
 
@@ -77,6 +77,4 @@ docker-compose up --build
           "score": 0.9, 
           "metadata": { "key": "value" } 
         },
-        ...
-      ]
       ```
